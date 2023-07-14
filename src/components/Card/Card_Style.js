@@ -62,7 +62,7 @@ export const FormContainer = styled.div`
 export const Textarea = styled.textarea`
   padding: 15px;
   width: 300px;
-  height: 200px;
+  height: 150px;
   border-radius: 4px;
   border: 1px solid #ccc;
   max-width: 100%;

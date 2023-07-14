@@ -6,7 +6,6 @@ export const SidebarWrapper = styled.div`
   right: 30px;
   height: 110px;
   width: 25px;
-  /* background-color: skyblue; */
   padding: 20px;
   z-index: 2;
 `;
