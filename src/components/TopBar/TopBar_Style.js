@@ -16,7 +16,6 @@ export const TopBarWrapper = styled.div`
 export const Title = styled.div`
   font-size: 24px;
   flex-grow: 1;
-  margin-left: 150px;
   text-align: center;
   font-family: "OKDDUNG", sans-serif;
 `;
