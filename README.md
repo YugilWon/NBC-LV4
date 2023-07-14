@@ -15,3 +15,6 @@
 
 글쓰기 버튼은 제가 사이드바 부분에 움직이는 이모지로 넣어두었습니다 혹시 못찾으실 수 있을 것 같아
 글을 남겨봅니다.
+
+API명세서 노션 링크입니다 잘 작성하진 못한 것 같습니다ㅎㅎ;
+https://generated-tarsier-b2a.notion.site/nbc-lv4-b77f9af331a54c6f80bf387226d94d5a?pvs=4
