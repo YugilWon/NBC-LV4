@@ -2,6 +2,7 @@ import axios from "axios";
 
 const getPosts = async () => {
   const response = await axios.get(`${process.env.REACT_APP_SERVER_URL}/Post`);
+  console.log(process.env.REACT_APP_SERVER_URL);
   return response.data;
 };
 

@@ -6,6 +6,9 @@ import reportWebVitals from "./reportWebVitals";
 import { Provider } from "react-redux";
 import store from "./redux/config/configStore";
 import { CookiesProvider } from "react-cookie";
+import axios from "axios";
+
+axios.defaults.withCredentials = true;
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
