@@ -49,13 +49,13 @@ function UpdatePost({ post, onUpdateButtonClickHandler }) {
       let imageUrl = post.imageUrl;
       let videoUrl = post.videoUrl;
       if (imgDownloadURL) {
-        const response = await api.patch(`/Post/${post.id}`, {
+        const response = await api.patch(`/post/${post.id}`, {
           imageUrl: imgDownloadURL,
         });
         imageUrl = response.data.imageUrl;
       }
       if (videoDownloadURL) {
-        const response = await api.patch(`/Post/${post.id}`, {
+        const response = await api.patch(`/post/${post.id}`, {
           videoUrl: videoDownloadURL,
         });
         videoUrl = response.data.videoUrl;
@@ -69,7 +69,7 @@ function UpdatePost({ post, onUpdateButtonClickHandler }) {
         imageUrl,
         videoUrl,
       };
-      await api.patch(`/Post/${post.id}`, updatedPost);
+      await api.patch(`/post/${post.id}`, updatedPost);
       onUpdateButtonClickHandler(updatedPost);
       setIsModalOpen4(false);
     } catch (error) {

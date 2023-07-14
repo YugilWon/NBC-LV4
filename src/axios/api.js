@@ -6,7 +6,7 @@ const instance = axios.create({
 });
 
 const addPost = async (newPost) => {
-  await axios.post(`${process.env.REACT_APP_SERVER_URL}/Post`, newPost);
+  await axios.post(`${process.env.REACT_APP_SERVER_URL}/post`, newPost);
 };
 
 export { addPost };

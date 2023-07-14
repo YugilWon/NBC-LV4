@@ -37,7 +37,7 @@ function DetailPage() {
   const [editingComment, setEditingComment] = useState("");
 
   const fetchPost = async () => {
-    const { data } = await api.get(`/Post/${id}`);
+    const { data } = await api.get(`/post/${id}`);
 
     setPost(data);
   };
@@ -50,7 +50,7 @@ function DetailPage() {
 
   //삭제 함수
   const onDeleteButtonClickHandler = async (id) => {
-    await api.delete(`/Post/${id}`);
+    await api.delete(`/post/${id}`);
     setPost((prevPost) => prevPost.filter((item) => item.id !== id));
     alert("삭제가 완료되었습니다!");
     navigate(`/`);

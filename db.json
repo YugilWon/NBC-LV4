@@ -1,5 +1,5 @@
 {
-  "Post": [
+  "post": [
     {
       "id": "a29a67ad-8333-83f3-71e3-d0790699819c",
       "name": "구슬이",
@@ -171,7 +171,7 @@
       "userId": "yugil3150"
     }
   ],
-  "Comments": [
+  "comments": [
     {
       "id": "54a7805e-8232-b4ed-20c4-82b2a0fffa7e",
       "postId": "a29a67ad-8333-83f3-71e3-d0790699819c",
