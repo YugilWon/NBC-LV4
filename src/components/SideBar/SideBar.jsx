@@ -7,10 +7,10 @@ function Sidebar() {
     <SidebarWrapper>
       <PostCards />
       <IconLink href="https://instagram.com/uwon9305?igshid=Y2I2MzMwZWM3ZA==">
-        <IconImage src="instargram.png" alt="Instagram" />
+        <IconImage src="instar.png" alt="Instagram" />
       </IconLink>
       <IconLink href="https://cafe.naver.com/banham2020">
-        <IconImage src="Naver.png" alt="Naver Cafe" />
+        <IconImage src="Naver.png" alt="NaverCafe" />
       </IconLink>
     </SidebarWrapper>
   );
