@@ -10,6 +10,19 @@ export const CardContainer = styled.div`
   margin: 0 auto;
   /* max-width: 1200px; */
   background-color: beige;
+  height: auto;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px 20px;
+    background-color: beige;
+  }
+
+  @media screen and (max-width: 480px) {
+    grid-template-columns: 1fr;
+    padding: 20px 10px;
+    background-color: beige;
+  }
 `;
 
 export const Card = styled.div`

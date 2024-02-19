@@ -8,6 +8,15 @@ export const SidebarWrapper = styled.div`
   width: 25px;
   padding: 20px;
   z-index: 2;
+  @media screen and (max-width: 768px) {
+    position: fixed;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
 `;
 
 export const IconLink = styled.a`
