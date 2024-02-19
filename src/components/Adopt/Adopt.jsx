@@ -5,6 +5,7 @@ import {
   ContentContainer,
   ContentText,
   Container,
+  Image,
 } from "./Adopt_Style";
 import { Button } from "../../styled-components/Button/Button_Style";
 
@@ -51,16 +52,12 @@ function Adopt() {
         </div>
         <ContentContainer style={{ marginTop: "300px" }}>
           <div>
-            <img
+            <Image
               src={
                 "https://images.unsplash.com/photo-1600077106724-946750eeaf3c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80"
               }
-              style={{
-                width: "500px",
-                borderRadius: "30px",
-                marginRight: "50px",
-              }}
-            ></img>
+              alt="Responsive Image"
+            ></Image>
           </div>
 
           <ContentText>

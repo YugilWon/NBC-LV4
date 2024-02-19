@@ -46,7 +46,19 @@ export const ContentText = styled.div`
     text-align: justify;
     line-height: 40px;
     margin-top: 20px;
-    width: 600px;
+    /* width: 600px; */
+    width: 100%;
+    max-width: 600px;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+    h2 {
+      font-size: 60px;
+    }
+    p {
+      line-height: 30px;
+    }
   }
 
   &:hover {
@@ -59,4 +71,11 @@ export const ContentText = styled.div`
 export const Container = styled.div`
   background-color: #f2ea9b;
   height: 600px;
+`;
+
+export const Image = styled.img`
+  width: 100%;
+  max-width: 500px;
+  border-radius: 30px;
+  margin-right: 50px;
 `;
