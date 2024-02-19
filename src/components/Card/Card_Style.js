@@ -3,15 +3,11 @@ import styled from "styled-components";
 export const CardContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* grid-gap: 20px; */
-  /* border-radius: 2%; */
   justify-content: center;
   padding: 80px 40px;
   margin: 0 auto;
-  /* max-width: 1200px; */
   background-color: beige;
   height: auto;
-  /* height: 100vh; */
   width: 100%;
 
   @media screen and (max-width: 768px) {
