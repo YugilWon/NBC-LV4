@@ -13,6 +13,7 @@ export const SidebarWrapper = styled.div`
     top: auto;
     right: 0;
     bottom: 0;
+    left: auto;
     width: 100%;
     height: auto;
     padding: 10px;
