@@ -8,20 +8,21 @@ export const CardContainer = styled.div`
   margin: 0 auto;
   background-color: beige;
   height: auto;
-  width: 100%;
+  /* width: 100%; */
 
   @media screen and (max-width: 768px) {
-    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: 1fr;
     padding: 40px 20px;
     background-color: beige;
-    width: 100%;
+    /* width: 100%; */
   }
 
   @media screen and (max-width: 480px) {
     grid-template-columns: 1fr;
     padding: 20px 10px;
     background-color: beige;
-    width: 100%;
+    /* width: 100%; */
   }
 `;
 

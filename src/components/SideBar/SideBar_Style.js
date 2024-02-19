@@ -3,7 +3,9 @@ import styled from "styled-components";
 export const SidebarWrapper = styled.div`
   position: fixed;
   top: 40%;
-  right: 30px;
+  /* right: 30px; */
+  right: 0;
+  bottom: 0;
   height: 110px;
   width: 25px;
   padding: 20px;

@@ -26,6 +26,16 @@ export const ContentContainer = styled.div`
   position: sticky;
   top: 0;
   z-index: 2;
+
+  @media screen and (max-width: 768px) {
+    margin-top: -80px; /* 더 작은 화면에서의 값 조절 */
+    margin-bottom: 100px; /* 더 작은 화면에서의 값 조절 */
+  }
+
+  @media screen and (max-width: 480px) {
+    margin-top: -40px; /* 최소 크기 화면에서의 값 조절 */
+    margin-bottom: 50px; /* 최소 크기 화면에서의 값 조절 */
+  }
 `;
 
 export const ContentText = styled.div`
@@ -70,7 +80,18 @@ export const ContentText = styled.div`
 
 export const Container = styled.div`
   background-color: #f2ea9b;
+  width: 100%;
   height: 600px;
+
+  @media screen and (max-width: 768px) {
+    height: 400px;
+    background-color: #aabbcc;
+  }
+
+  @media screen and (max-width: 480px) {
+    height: 300px;
+    background-color: #aabbcc;
+  }
 `;
 
 export const Image = styled.img`
